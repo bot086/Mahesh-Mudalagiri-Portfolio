@@ -77,7 +77,7 @@ const Hero = () => {
                         </motion.a>
 
                         <motion.a
-                            href="/resume.pdf"
+                            href="./resume.pdf"
                             download="Mahesh_Mudalagiri_Resume.pdf"
                             whileHover={{ scale: 1.05 }}
                             className="px-8 py-3 bg-white text-tech-black font-bold font-techno border border-tech-white transition-transform duration-300 flex items-center justify-center gap-2 hover:bg-transparent hover:text-tech-white"
@@ -98,7 +98,7 @@ const Hero = () => {
                     <div
                         className="w-full h-full max-w-md bg-no-repeat bg-center bg-cover rounded-3xl"
                         style={{
-                            backgroundImage: `url('/hero-image.jpg')`,
+                            backgroundImage: `url('./hero-image.jpg')`,
                             maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%)',
                             WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%)',
                             boxShadow: '0 20px 50px -10px rgba(0,0,0,0.5)'
